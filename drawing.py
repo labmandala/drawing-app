@@ -41,12 +41,35 @@ def square():
     turtle.right(90)
    
 def hexagon():
+  # Hexagon
   for i in range(0,6):
     turtle.pencolor("black")
     turtle.forward(100)
     turtle.right(60)
 
-selection = input("1. Star\n2. Square\n3. Hexagon\nSelect a number: ")
+def circle():
+  # Circle
+  for i in range(0,1):
+    turtle.begin_fill()
+    turtle.fillcolor("blue")
+    turtle.circle(60)
+    turtle.end_fill()
+
+def triangle():
+  # Equilateral Triangle
+  for i in range(3):
+    turtle.pencolor("black")
+    turtle.forward(100)
+    turtle.left(120)
+
+def pentagon():
+  # Pentagon
+  for i in range(0,5):
+    turtle.pencolor("green")
+    turtle.forward(100)
+    turtle.right(72)
+
+selection = input("1. Star\n2. Square\n3. Hexagon\n4. Circle\n5. Triangle\n6. Pentagon\nSelect a number: ")
 if selection == "1":
   print("Excellent choice! Go to the result tab to see your creation.")
   star()
@@ -56,3 +79,12 @@ elif selection == "2":
 elif selection == "3":
   print("Excellent choice! Go to the result tab to see your creation.")
   hexagon()
+elif selection == "4":
+  print("Excellent choice! Go to the result tab to see your creation.")
+  circle()
+elif selection == "5":
+  print("Excellent choice! Go to the result tab to see your creation.")
+  triangle()
+elif selection == "6":
+  print("Excellent choice! Go to the result tab to see your creation.")
+  pentagon()
