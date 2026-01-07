@@ -2,6 +2,8 @@
 <p>The drawing app was created using Python’s Turtle module, a simple graphics library for drawing shapes and patterns. Turtle creates visual art or builds simple graphical applications.</p> 
 <p>Turtle was combined with loops to finish up the drawing app, allowing users to create shapes with turtle without typing a line of code. Options include a star, square, or hexagon.</p>
 
+<img src="drawing-app-mockup.jpg" />
+
 # Install Python
 
 Check to see if you already have Python installed on your system by running:
