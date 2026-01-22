@@ -73,18 +73,25 @@ selection = input("1. Star\n2. Square\n3. Hexagon\n4. Circle\n5. Triangle\n6. Pe
 if selection == "1":
   print("Excellent choice! Go to the result tab to see your creation.")
   star()
+  turtle.done()
 elif selection == "2":
   print("Excellent choice! Go to the result tab to see your creation.")
   square()
+  turtle.done()
 elif selection == "3":
   print("Excellent choice! Go to the result tab to see your creation.")
   hexagon()
+  turtle.done()
 elif selection == "4":
   print("Excellent choice! Go to the result tab to see your creation.")
   circle()
+  turtle.done()
 elif selection == "5":
   print("Excellent choice! Go to the result tab to see your creation.")
   triangle()
+  turtle.done()
 elif selection == "6":
   print("Excellent choice! Go to the result tab to see your creation.")
   pentagon()
+  turtle.done()
+  
